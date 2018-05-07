@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+h1 {
+  margin: 10px;
+  font-family: Times New Roman;
+  text-align: center;
+}
+
+p{
+	border: 1px solid black; 
+	height: 250px;
+	background-color: #C0C0C0;
+	font-family: Verdana;
+	padding: 20px;
+	padding-top: 45px;
+	padding-bottom: 25px;
+}
+
+#list1, #list2, #list3{
+	padding: 10px;
+}
+
+#titlebox1{
+	background: #7BDCF9;
+}
+
+#titlebox2{
+	background-color: #967FF9;
+}
+
+#titlebox3{
+	background-color: #FFCE00;
+}
+
+#titlebox1, #titlebox2, #titlebox3{
+	border: 1px solid black;
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	float: right;
+	padding: 10px;
+	margin-top: 16px;
+	font-family: Lucida Console;
+}
+
+.row {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+/***** ssmall moblie devices*****/
+@media(max-width: 767px){
+	.col-lg-4, .col-md-6, .col-sm-12, .col-md-12
+
+.col-lg-12{
+	width: 100%;
+}
+}
+
+/****** tablet moblie devices****/
+@media(min-width: 768px) and (max-width: 991px){
+	.col-lg-4, .col-md-6, .col-sm-12, .col-md-12
+	{
+		float: left;
+	}
+
+.col-md-6{
+	width: 50%;
+}
+.col-md-12{
+	width: 100%;
+}
+
+}
+
+/***** desktop devices*****/
+@media(min-width: 992px){
+	.col-lg-4, .col-md-6, .col-sm-12, .col-md-12
+	{
+		float: left;
+	}
+
+.col-lg-4{
+	width: 33.33%;
+}
+}
